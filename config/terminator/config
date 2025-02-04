@@ -1,0 +1,27 @@
+# ~/.config/terminator/config
+
+[global_config]
+  title_transmit_bg_color = "#282c34"
+  title_use_custom = False
+
+[keybindings]
+
+[profiles]
+  [[default]]
+    background_color = "#282c34"
+    foreground_color = "#abb2bf"
+    bold_color = "#528bff"
+    cursor_color = "#528bff"
+    cursor_text_color = "#282c34"
+    use_system_font = False
+    font = VictorMono Nerd Font 18
+    palette = "#282c34:#e06c75:#98c379:#e5c07b:#61afef:#c678dd:#56b6c2:#abb2bf:#5c6370:#d19a66:#98c379:#e5c07b:#61afef:#c678dd:#56b6c2:#ffffff"
+
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = ""
+      position = 0
+      size = 600, 400
+      window_size = 800, 600
+
