@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="empty"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=960;y=18"/>
+      <property name="length" type="double" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="empty"/>
+      <property name="background-style" type="empty"/>
+      <property name="background-alpha" type="empty"/>
+      <property name="enter-opacity" type="empty"/>
+      <property name="leave-opacity" type="empty"/>
+      <property name="icon-size" type="empty"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+        <value type="int" value="10"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=960;y=1064"/>
+      <property name="size" type="uint" value="30"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="length" type="double" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="enable-struts" type="bool" value="true"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="18"/>
+        <value type="int" value="14"/>
+        <value type="int" value="7"/>
+        <value type="int" value="16"/>
+      </property>
+    </property>
+    <property name="dark-mode" type="bool" value="true"/>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="empty">
+      <property name="favorites" type="array">
+        <value type="string" value="thunderbird.desktop"/>
+        <value type="string" value="pix.desktop"/>
+        <value type="string" value="org.gnome.Rhythmbox3.desktop"/>
+        <value type="string" value="mintinstall.desktop"/>
+        <value type="string" value="xfce4-taskmanager.desktop"/>
+      </property>
+      <property name="recent" type="array">
+        <value type="string" value="xfce4-terminal.desktop"/>
+        <value type="string" value="virtualbox.desktop"/>
+        <value type="string" value="net.poedit.Poedit.desktop"/>
+        <value type="string" value="one.ablaze.floorp.desktop"/>
+        <value type="string" value="org.gnome.FileRoller.desktop"/>
+        <value type="string" value="io.github.hrkfdn.ncspot.desktop"/>
+        <value type="string" value="btop.desktop"/>
+        <value type="string" value="xfce-mouse-settings.desktop"/>
+        <value type="string" value="xfce-ui-settings.desktop"/>
+        <value type="string" value="transmission-gtk.desktop"/>
+      </property>
+      <property name="view-mode" type="int" value="1"/>
+      <property name="launcher-show-name" type="bool" value="true"/>
+      <property name="position-categories-horizontal" type="bool" value="false"/>
+      <property name="position-profile-alternate" type="bool" value="true"/>
+      <property name="show-button-icon" type="bool" value="true"/>
+      <property name="show-button-title" type="bool" value="false"/>
+      <property name="button-single-row" type="bool" value="false"/>
+      <property name="default-category" type="int" value="1"/>
+      <property name="launcher-show-description" type="bool" value="true"/>
+      <property name="menu-width" type="int" value="500"/>
+      <property name="menu-opacity" type="int" value="100"/>
+      <property name="profile-shape" type="int" value="1"/>
+    </property>
+    <property name="plugin-2" type="empty"/>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="items" type="empty"/>
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-5" type="empty">
+      <property name="items" type="empty"/>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="show-handle" type="empty"/>
+      <property name="middle-click" type="empty"/>
+    </property>
+    <property name="plugin-7" type="string" value="pager">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-8" type="empty">
+      <property name="icon-size" type="empty"/>
+      <property name="names-visible" type="empty"/>
+      <property name="show-frame" type="empty"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="painel ibus"/>
+        <value type="string" value="yad"/>
+        <value type="string" value="miniaplicativo gerenciador de redes"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="transmission-gtk"/>
+        <value type="string" value="LUrNuyM7tq"/>
+        <value type="string" value="P4nCsNKwtb"/>
+        <value type="string" value="cbcps8FYbm"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="Sydzt4oplT"/>
+        <value type="string" value="xC5MravLri"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="blueman"/>
+      </property>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-11" type="empty"/>
+    <property name="plugin-12" type="empty">
+      <property name="enable-keyboard-shortcuts" type="empty"/>
+      <property name="enable-mpris" type="empty"/>
+      <property name="mixer-command" type="empty"/>
+      <property name="show-notifications" type="empty"/>
+      <property name="known-players" type="string" value="de.haeckerfelix.Shortwave;firefox;floorp;FreeTube;ncspot;org.gnome.Podcasts;vlc"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="digital-time-format" type="empty"/>
+      <property name="digital-layout" type="uint" value="3"/>
+      <property name="digital-date-font" type="empty"/>
+      <property name="digital-time-font" type="string" value="Inter Bold 12"/>
+      <property name="digital-date-format" type="string" value="%m/%d/%Y"/>
+      <property name="mode" type="uint" value="2"/>
+    </property>
+    <property name="plugin-14" type="empty">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-16" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/ocamilo"/>
+      <property name="new-folder" type="bool" value="false"/>
+      <property name="new-document" type="bool" value="false"/>
+      <property name="hidden-files" type="bool" value="false"/>
+      <property name="file-pattern" type="string" value=""/>
+    </property>
+    <property name="plugin-18" type="string" value="tasklist">
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="show-tooltips" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="grouping" type="bool" value="false"/>
+      <property name="show-wireframes" type="bool" value="false"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="switch-workspace-on-unminimize" type="bool" value="false"/>
+      <property name="include-all-workspaces" type="bool" value="true"/>
+      <property name="show-only-minimized" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>

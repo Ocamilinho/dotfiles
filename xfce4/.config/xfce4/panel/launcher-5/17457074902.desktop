@@ -1,0 +1,40 @@
+[Desktop Entry]
+Name=Thunar File Manager
+Name[pt]=Gestor de ficheiros Thunar
+Name[pt_BR]=Gerenciador de arquivos Thunar
+Comment=Browse the filesystem with the file manager
+Comment[pt]=Explorar sistema de ficheiros com o gestor de ficheiros
+Comment[pt_BR]=Navegue no sistema de arquivos com o gerenciador de arquivos
+GenericName=File Manager
+GenericName[pt]=Gestor de ficheiros
+GenericName[pt_BR]=Gerenciador de arquivos
+Keywords=file manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;
+Keywords[pt]=gestor de ficheiros;explorador;pesquisador;navegador;pastas;diretório;diretórios;partições;unidades;rede;dispositivos;renomear;mover;copiar;eliminar;permissões;pasta pessoal;lixo;
+Keywords[pt_BR]=gerenciador de arquivos;explorador;localizador;navegador;pastas;diretório;diretórios;partições;unidades;rede;dispositivos;renomear;mover;copiar;deletar;permissões;home;lixo;
+Exec=thunar %U
+Icon=org.xfce.thunar
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=System;Core;GTK;FileTools;FileManager;
+MimeType=inode/directory;
+Actions=open-home;open-computer;open-trash;
+X-XFCE-Source=file:///usr/share/applications/thunar.desktop
+
+[Desktop Action open-home]
+Name=Home
+Name[pt]=Pasta Pessoal
+Name[pt_BR]=Início
+Exec=thunar %U
+
+[Desktop Action open-computer]
+Name=Computer
+Name[pt]=Computador
+Name[pt_BR]=Computador
+Exec=thunar computer:///
+
+[Desktop Action open-trash]
+Name=Trash
+Name[pt]=Lixo
+Name[pt_BR]=Lixeira
+Exec=thunar trash:///
