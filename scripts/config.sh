@@ -51,6 +51,7 @@ FLATPAK_APPS=(
     com.github.tchx84.Flatseal
     org.telegram.desktop
     io.freetubeapp.FreeTube
+    net.poedit.Poedit
 )
 
 
@@ -115,27 +116,7 @@ sudo apt install -y ./quarto-linux-amd64.deb
 rm quarto-linux-amd64.deb
 
 # FOLDERS
-for dir in */ ; do
-    if [ -d "$dir" ] && [ -z "$(ls -A "$dir")" ]; then
-        rmdir "$dir"
-    fi
-done
-
-FOLDERS=(
-	tor
-	tor/complete
-	tor/incomplete
-	docs
-	downloads
-	img
-	data
-)
-
-for folder in "${FOLDERS[@]}"; do
-	echo "Criando pasta: $folder"
-    mkdir -v "$folder"
-done
-
+ln -s /mnt/sda1/* ~/.
 
 # Clonar repositórios
 gh repo clone Ocamilinho/drive

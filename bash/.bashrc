@@ -1,7 +1,8 @@
 # Alias
 ## Arquivos de configuração
-alias bashrc='geany ~/.bashrc &'
-alias cscript='geany ~/dotfiles/scripts/config.sh &'
+alias bashrc='lvim ~/.bashrc'
+alias cscript='lvim ~/dotfiles/scripts/config.sh'
+alias kittyrc='lvim ~/.config/kitty/kitty.conf'
 
 ## Navegação
 alias ls='ls --color=auto'
@@ -22,6 +23,9 @@ alias gs='git status'
 alias ga='git add .'
 alias gcm='git commit -m'
 
+## Atalhos
+alias spt='ncspot'
+
 ## Sistema
 alias u='sudo apt upgrade'
 alias uall='sudo apt update && sudo apt upgrade'
@@ -38,8 +42,8 @@ alias 4r='quarto render'
 alias fpi='sudo flatpak install'
 alias fpr='sudo flatpak remove'
 alias fps='sudo flatpak search'
-alias spot='flatpak run io.github.hrkfdn.ncspot'
-
+alias fpl='flatpak list'
+alias fprn='sudo flatpak run'
 
 export HISTSIZE=5000
 export HISTCONTROL=ignoredups:erasedups
@@ -56,3 +60,9 @@ PS1='\[\e[1;32m\]\u@\h\[\e[0m\]:\[\e[1;34m\]\w\[\e[0m\]\$ '
 parse_git_branch() {
     git branch 2>/dev/null | grep '^*' | colrm 1 2
 }
+
+[ -f "/home/ocamilo/.ghcup/env" ] && . "/home/ocamilo/.ghcup/env" # ghcup-env
+
+# PATH
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOPATH/bin
